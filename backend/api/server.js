@@ -10,6 +10,7 @@ app.use(express.urlencoded({ limit: "10mb", extended: true }));
 const cors = require("cors");
 app.use(cors());
 
+// Create a public folder in which create thumbnail and books folder to store thumbnail and book respesctively
 app.use(
   "/public/thumbnails",
   express.static(__dirname + "/public/thumbnails")
