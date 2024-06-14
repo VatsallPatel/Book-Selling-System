@@ -1,0 +1,17 @@
+export const URIConstants = {
+  ADMINLOGIN_URI: "admin-login",
+  LOGIN_URI: "login",
+  SIGNUP_URI: "signup",
+  COUNTRYCODE_URI: "country-code",
+  LOGOUT_URI: "logout",
+  LISTBOOKS_URI: "list-books",
+  ADDBOOK_URI: "add-book",
+  DELETEBOOK_URI: "delete-book",
+  EDITBOOK_URI: "edit-book",
+  CART_URI: "listing-cart",
+  ADDTOCART_URI: "add-to-cart",
+  ORDER_URI: "order",
+  COUNTS_URI: "dashboard-counts",
+  GETORDERS_URI: "list-orders",
+  RESPONSEORDER_URI: "response-order",
+};
