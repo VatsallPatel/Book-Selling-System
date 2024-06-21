@@ -32,7 +32,7 @@ export function FetchWrapper(url, body, method) {
         window.location.href = "/login";
       } else {
         console.log(error);
-        return error;
+        return [];
       }
     });
 }
